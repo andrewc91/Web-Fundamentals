@@ -1,0 +1,174 @@
+#container {
+    width: 970px;
+    margin: auto;
+    background-color: lightgray;
+}
+
+p {
+    font-size: 15px;
+    color: white;
+}
+
+/*-------------------HEADER----------------------------*/
+
+#header {
+    height: 85px;
+    background-color: #ECECEC;
+}
+
+#top-left {
+    display: inline-block;
+}
+
+#top-right {
+    display: inline-block;
+    float: right;
+    padding: 25px 30px 10px 0;
+}
+
+#header img {
+    padding: 10px 0 10px 20px;
+}
+
+
+/*-------------------NAV BAR----------------------------*/
+
+
+#nav-bar {
+    height: 50px;
+    background-color: #D9DFE4;
+    padding: 5px;
+    border-top: 1px solid grey;
+}
+
+#nav-bar ul li {
+    display: inline-block;
+    font-size: 14px;
+    margin: 0 10px 0 10px;
+}
+
+
+.borders {
+    border-right: 1px solid grey;
+    padding-top: 22px;
+    padding-bottom: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: #82746C;
+}
+
+/*-------------------MAIN CONTENT----------------------------*/
+
+#main-wrapper {
+    width: 970px;
+    height: auto;
+    background-color: black;
+}
+
+#main-top {
+    background-color: black;
+    height: auto;
+    padding: 15px;
+}
+
+#main-image {
+    width: 310px;
+    height: 350px;
+    background-color: white;
+    display: inline-block;
+    padding: 5px;
+}
+
+#main-title {
+    height: 20px;
+    background-color: #FEC72F;
+    padding: 1px 5px 10px 5px;
+}
+
+#main-title h4 {
+    margin-top: 10px;
+}
+
+#main-about {
+    width: 600px;
+    height: 360px;
+    background-color: #404040;
+    display: inline-block;
+    margin-left: 10px;
+    vertical-align: top;   
+}
+
+#main-about h5, p {
+    padding-left: 15px;
+}
+
+#mini-content {
+    height: 50px;
+    background-color: black;
+    margin-left: 20px;
+}
+
+#mini-content img {
+    display: inline-block;
+    padding-top: 5px;
+}
+
+#mini-content p {
+    color: #8D8B51;
+    font-size: 12px;
+    display: inline-block;
+    padding-left: 15px;
+    margin-left: -10px;
+    margin-top: 6px;
+}
+
+/*-------------------SUB CONTENTS----------------------------*/
+
+#sub-content-wrap {
+    width: 970px;
+    height: auto;
+    background-color: black;
+}
+
+.sub-contents {
+    height: 310px;
+    width: 220px;
+    background-color: #FFF6E5;
+    display: inline-block;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    vertical-align: top;
+}
+
+.sub-title {
+    height: 20px;
+    background-color: #FEC72F;
+    padding: 5px;
+}
+
+#sub-content-wrap h4 {
+    margin: 0;
+    font-weight: bold;
+}
+
+#sub-content-wrap img {
+    margin-top: 7px;
+    margin-left: -5px;
+    height: 110px;
+    width: 220px;
+}
+
+#sub-content-wrap p {
+    color: black;
+    font-size: 12px;
+}
+
+.button {
+    margin-top: 240px;
+    margin-left: 120px;
+    background-color: #FFC629;
+    border: 2px solid black;
+    border-radius: 5px;
+}

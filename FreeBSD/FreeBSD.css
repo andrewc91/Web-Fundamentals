@@ -1,0 +1,153 @@
+#container {
+    width: 970px;
+    margin: auto;
+}
+
+#header {
+    background-color: maroon;
+    height: 100px;  
+}
+
+h2 {
+    display: inline-block;
+    color: white;
+    font-family: fantasy;
+    vertical-align: top;
+    padding-top: 20px;
+}
+
+img {
+    padding: 20px 0 20px 20px;
+    display: inline-block;
+}
+
+/* --------------------------TOP RIGHT---------------------*/
+#top-right {
+    float: right;
+}
+
+#top-right ul {
+    list-style-type: none;
+    margin-right: 40px;
+    margin-top: 5px;
+    color: white;
+}
+
+#top-right ul li {
+    display: inline-block;
+    font-size: 14px;
+}
+
+#top-right ul li a {
+    color: orange;
+}
+
+
+
+
+/* --------------------------SEARCH BAR---------------------*/
+
+#search-bar{
+    float:right;
+    margin-top: -70px;
+    margin-right: 35px;
+}
+
+#submit {
+    border-color: white;
+    color: white;
+    background-color: maroon;
+    vertical-align: top;
+    padding: 7px 6px 7px 6px;
+}
+
+
+/* --------------------------NAV BAR---------------------*/
+
+#nav-bar {
+    height: 40px;
+    background-color: rgba(128, 128, 128, 0.31);
+    margin-top: 0px;
+    border: 1px solid grey;
+}
+
+#nav-bar ul {
+    margin: 0px;
+}
+
+#nav-bar ul li {
+    display: inline-block;
+    padding-top: 10px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+#nav-bar a {
+    text-decoration: none;
+    color: grey;
+}
+
+.border {
+    border-right: 1px solid grey;
+    margin: 15px
+}
+
+
+/* --------------------------SIDE BAR---------------------*/
+
+#side-bar {
+    height: 310px;
+    width: 170px;
+    background-color: rgba(128, 128, 128, 0.31);
+    border: 1px solid grey;
+    margin: 25px;
+    display: inline-block;
+}
+
+#side-bar ul {
+    padding-left: 35px;
+}
+
+#side-bar ul li {
+    padding-top: 11px;
+    font-size: 15px
+}
+
+#side-bar ul a {
+    color: maroon;
+}
+
+/* --------------------------MAIN CONTENT---------------------*/
+
+#main-content {
+    height: auto;
+    width: auto;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 5px;
+}
+
+.titles {
+    color: maroon;
+}
+
+#main-content ul li {
+    padding-top: 5px;
+    font-size: 14px
+}
+
+#main-content a {
+    color: maroon;
+}
+
+#main-content p {
+    font-size: 14px;
+}
+
+.divider {
+    border-bottom: 2px solid black;
+}
+
+#main-content ol li a {
+    color: maroon;
+}

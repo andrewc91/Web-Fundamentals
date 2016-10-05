@@ -1,0 +1,255 @@
+a {
+    color: #0F729F;
+}
+
+.container {
+    width: 970px;
+}
+
+#header {
+    height: 250px;
+    width: auto;
+    background-color: #FDFDFD;
+}
+
+#header ul {
+    margin-left: 450px;
+    margin-top: 0px;
+}
+
+#header ul li {
+    display: inline;
+}
+
+#header ul li a {
+    text-decoration: none;
+    color: #9E9C9F;
+}
+
+.borders {
+    border-right: 1px solid #C0BDC1;
+    margin: 0px 5px 0 5px;
+}
+
+input {
+    margin-left: 20px;
+    background-color: #019ADB;
+    color: white;
+    border-radius: 5px;
+    font-size: 13px
+}
+
+#header img {
+    margin-left: 10px;
+    margin-top: 30px;
+    vertical-align: top;
+    height: 67px;
+    width: 55px;
+}
+
+h1 {
+    display: inline-block;
+    font-size: 50px;
+    font-family: fantasy;
+    vertical-align: top;
+}
+
+h2 {
+    margin: 0;
+    font-family: fantasy;
+    font-size: 25px;
+    background-color: #007DBE;
+    padding: 10px 10px 10px 10px;
+    color: white;
+    border: 1px solid #29759B;
+}
+
+/*---------------------------LEFT-SIDE----------------------------*/
+
+.side-ads {
+    background-color: white;
+    width: 230px;
+    height: 800px;
+    margin-top: 90px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 20px;
+}
+
+h4 {
+    font-family: Helvetica Neue;
+    font-size: 18px;
+    color: #2A729A;
+}
+
+h5 {
+    font-family: Helvetica Neue;
+    color: #CF4A26;
+    margin-bottom: 0;
+}
+
+.side-ads p {
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.side-ads a {
+    text-decoration: none;
+}
+
+#button1 {
+    background-color: #0E8BCB;
+    padding: 10px 40px 10px 40px;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 0;
+    border: 1px solid #0172AC;
+}
+
+#button2 {
+    background-color: #EF6D1D;
+    padding: 10px 65px 10px 65px;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 0;
+    border: 1px solid #0172AC;
+}
+
+.bottom-border {
+    border-bottom: 1px solid grey;
+}
+
+#image-text {
+    background-image: url(left_content_ad1.png);
+    height: 365px;
+    width: 197px;
+}
+
+
+#image-text h5 {
+    padding: 10px;
+    margin-bottom: -10px;
+    line-height: 30px;
+    font-size: 16px;
+    color: #14587F;
+}
+
+#image-text p {
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    line-height: 25px;
+    font-size: 14px;
+}
+
+#image-text input {
+    font-size: 12px;
+    padding: 3px 15px 3px 15px;
+    margin-left: 8px;
+    background-color: #125D90;
+}
+
+/*-------------------------------MAIN CONTENT---------------------------------*/
+
+.main-content {
+    display: inline-block;
+    background-color: white;
+    width: 630px;
+    height: 750px;
+    margin-top: 20px;
+}
+
+#home {
+  
+}
+
+.main-content h3 {
+    display: inline-block;
+}
+
+.main-content h3 a {
+    text-decoration: none;
+}
+
+.main-content ul li {
+    font-size: 15px;
+}
+
+#info-list {
+    vertical-align: top;
+    list-style-type: none;
+    line-height: 0px;
+    margin: -70px 0 0 385px;
+}
+
+#phone {
+    display: inline-block;
+    vertical-align: top;
+    height: 60px;
+    width: 30px;
+    margin: 0 0 0 300px
+}
+
+.info-list {
+    display: block;
+    margin-left: 400px;
+}
+
+#info-list p {
+    line-height: 3px;
+}
+
+#info h3 {
+    line-height: 5px;
+}
+
+.main-content p {
+    line-height: 25px;
+    font-size: 15px;
+}
+
+#main-ad {
+    height: 150px;
+    width: auto;
+    border: 6px solid #83B9D0;
+    padding: 10px;
+}
+
+#main-ad img {
+    display: inline-block;
+    height: 90px;
+}
+
+#main-ad h4 {
+    vertical-align: top;
+    display: inline-block;
+    margin: 0;
+    color: #0E71A6;
+}
+
+#main-ad p {
+    display: block;
+    vertical-align: top;
+    margin-left: 70px;
+    margin-top: -60px;
+    line-height: 20px;
+}
+
+#main-ad input {
+    background-color: #8FB03B;
+    height: 45px;
+    width: 200px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: 2px solid #5E8240;
+    margin-left: 65px;
+}
+
+.main-content h3 {
+    font-size: 18px;
+    color: #4285B0;
+}
